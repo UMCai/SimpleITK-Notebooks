@@ -1,15 +1,15 @@
 name: sitkpy
 
 channels:
-  - defaults
   - conda-forge
 
 dependencies:
-  - python=3.9
+  - python=3.11
   - requests
   - jupyter
   - matplotlib
   - ipywidgets
+  - ipympl
   - numpy
   - scipy
   - pandas
